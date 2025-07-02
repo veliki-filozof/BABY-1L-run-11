@@ -1,0 +1,281 @@
+{
+    "general_data": {
+        "description": "Pure 1 L ClLiF, Ricorad and 5% B-PE shielding test",
+        "run_nb": 11,
+        "salt": "ClLiF",
+        "salt_mass": {
+            "value": 1.88,
+            "unit": "kg"
+        },
+        "temperature_salt": {
+            "value": 634,
+            "unit": "degC",
+            "note": "minimum, temperature is non-uniform"
+        },
+        "purpose_of_run": "Shielding test of a combination of Ricorad plates and 5% B-PE"
+    },
+    "cover_gas": {
+        "type": "3.5% H2 in He",
+        "pressure_gas_system": {
+            "value": 10,
+            "unit": "PSIG"
+        },
+        "pressure_gas_crucible": {
+            "value": 3,
+            "unit": "PSIG",
+            "note": "in steady state, downstream from filters"
+        },
+        "flow_rate_sample": {
+            "value": 30,
+            "unit": "SCCM"
+        },
+        "flow_rate_air": {
+            "value": 10,
+            "unit": "SCCM"
+        },
+        "switched_to": {
+            "type": null,
+            "gas_switch_time": null
+        }
+    },
+    "secondary_gas": {
+        "type": "3.5% H2 in He",
+        "pressure_gas_system": {
+            "value": 10,
+            "unit": "PSIG"
+        },
+        "pressure_gas_crucible": {
+            "value": 3,
+            "unit": "PSIG",
+            "note": "in steady state, downstream from filters"
+        },
+        "flow_rate_sample": {
+            "value": 50,
+            "unit": "SCCM"
+        },
+        "flow_rate_air": {
+            "value": 10,
+            "unit": "SCCM"
+        },
+        "switched_to": {
+            "type": null,
+            "gas_switch_time": null
+        }
+    },
+    "generators": [
+        {
+            "name": "nGen-400",
+            "enabled": true,
+            "anode_voltage": {
+                "value": 120,
+                "unit": "kV"
+            },
+            "anode_current": {
+                "value": 350,
+                "unit": "uA"
+            },
+            "periods": [
+                {
+                    "start": "6/20/2025 08:49",
+                    "end": "6/20/2025 10:49"
+                }
+            ]
+        }
+    ],
+    "notes": "nGen positioned 105 cm above the floor, 100 cm away from the salt axis (measured from outside the heater tube to center axis of nGen) in the y direction, parallel to the x axis (long edge of epoxy table). Generator reached 350 uA only after cycling on and off, but the current briefly overshot to >500 uA on second start.",
+    "shielding":{
+        "enabled": true,
+        "placed_on": "6/20/2025 08:00",
+        "removed_on": null,
+        "notes":"From the edge of OV: 2in air gap, 3in of Ricorad type B borated, 2in of 5% B-PE, 5.25in air gap, 8in of Ricorad type B borated."
+    },
+    "other_irradiations": {
+        "present": false,
+        "periods":[
+        ]
+    },
+    "neutron_detection": {
+        "foils": {
+            "enabled": true,
+            "position": "below target plane, 3 cm from the generator axis.",
+            "materials": [
+                {
+                    "position": null,
+                    "material": null,
+                    "designator": null,
+                    "irradiation_date": "6/20/2025",
+                    "number_of_foils": null,
+                    "distance_to_source": {
+                        "value": 3,
+                        "unit": "cm",
+                        "note": "To generator axis at target plane"
+                    },
+                    "mass": {
+                        "value": null,
+                        "unit": "g"
+                    },
+                    "mass_err": {
+                        "value": null,
+                        "unit": "g"
+                    },
+                    "thickness": {
+                        "value": null,
+                        "unit": "inch"
+                    }
+                },
+                {
+                    "position": null,
+                    "material": "Zr",
+                    "designator": null,
+                    "irradiation_date": "6/16/2025",
+                    "number_of_foils": 8,
+                    "distance_to_source": {
+                        "value": 3,
+                        "unit": "cm"
+                    },
+                    "mass": {
+                        "value": null,
+                        "unit": "g"
+                    },
+                    "mass_err": {
+                        "value": null,
+                        "unit": "g"
+                    },
+                    "thickness": {
+                        "value": null,
+                        "unit": "inch"
+                    }
+                }
+            ]
+        },
+        "diamond": {
+            "enabled": false,
+            "note": null,
+            "position": null
+        },
+        "proton_recoil_telecsope": {
+            "enabled": false,
+            "note": "ROSY would not connect.",
+            "position": null
+        }
+    },
+    "timestamps": {
+        "heater": {
+            "on": "3/12/2025 16:37",
+            "off": null
+        },
+        "run_start": "6/20/2025 08:49"
+    },
+    "tritium_blank_set": {
+        "filename": "SLR_BLANK_SCAN.csv",
+        "parameter": "tSIE",
+        "blanks": {
+            "SLR_BL2" : {
+                "water_volume": {
+                    "value": 2,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL4" : {
+                "water_volume": {
+                    "value": 4,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL6" : {
+                "water_volume": {
+                    "value": 6,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL8" : {
+                "water_volume": {
+                    "value": 8,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL9" : {
+                "water_volume": {
+                    "value": 9,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL10" : {
+                "water_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            },
+            "SLR_BL11" : {
+                "water_volume": {
+                    "value": 11,
+                    "unit": "ml"
+                },
+                "scint_volume": {
+                    "value": 10,
+                    "unit": "ml"
+                }
+            }
+        }
+    },
+    "tritium_detection": {
+        "IV": {
+            "1": {
+                "planned_sample_time": "6/20/2025 20:49",
+                "actual_sample_time": "6/20/2025 21:00",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "2": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "3": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "4": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv"
+                }
+            },
+            "2": {
+                "planned_sample_time": "6/21/2025 08:49",
+                "actual_sample_time": "6/21/2025 07:49",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "2": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "3": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "4": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv"
+                }
+            }
+        },
+        "OV": {
+            "1": {
+                "planned_sample_time": "6/21/2025 08:49",
+                "actual_sample_time": "6/21/2025 07:49",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "2": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "3": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv",
+                    "4": "1L_IV_11-1_11-2_OV_11-1_SHORT.csv"
+                }
+            }
+        }
+    }
+}
