@@ -293,6 +293,16 @@
                     "3": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "4": "1L_IV_11-5_OV_11-3_11-4.csv"
                 }
+            },
+            "6": {
+                "planned_sample_time": "6/29/2025 08:49",
+                "actual_sample_time": "6/29/2025 12:59",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-6_OV_11-5.csv",
+                    "2": "1L_IV_11-6_OV_11-5.csv",
+                    "3": "1L_IV_11-6_OV_11-5.csv",
+                    "4": "1L_IV_11-6_OV_11-5.csv"
+                }
             }
         },
         "OV": {
@@ -334,6 +344,16 @@
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "3": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "4": "1L_IV_11-5_OV_11-3_11-4.csv"
+                }
+            },
+            "5": {
+                "planned_sample_time": "6/29/2025 08:49",
+                "actual_sample_time": "6/29/2025 12:59",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-6_OV_11-5.csv",
+                    "2": "1L_IV_11-6_OV_11-5.csv",
+                    "3": "1L_IV_11-6_OV_11-5.csv",
+                    "4": "1L_IV_11-6_OV_11-5.csv"
                 }
             }
         }
