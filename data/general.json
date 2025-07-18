@@ -291,7 +291,7 @@
         "run_start": "6/20/2025 08:49"
     },
     "tritium_blank_set": {
-        "filename": "SLR_BLANK_SCAN.csv",
+        "filename": "SLR_BLANK_ULTRA_LONG.csv",
         "parameter": "tSIE",
         "blanks": {
             "SLR_BL2" : {
@@ -442,9 +442,9 @@
                 "planned_sample_time": "7/3/2025 08:49",
                 "actual_sample_time": "7/3/2025 13:30",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-8_OV_11-7.csv",
+                    "1": "1L_11_ULTRA_LONG_TEST.csv",
                     "2": "1L_IV_11-8_OV_11-7.csv",
-                    "3": "1L_IV_11-8_OV_11-7.csv",
+                    "3": "1L_11_ULTRA_LONG_TEST.csv",
                     "4": "1L_IV_11-8_OV_11-7.csv"
                 }
             },
@@ -544,9 +544,9 @@
                 "planned_sample_time": "7/3/2025 08:49",
                 "actual_sample_time": "7/3/2025 13:30",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-8_OV_11-7.csv",
+                    "1": "1L_11_ULTRA_LONG_TEST.csv",
                     "2": "1L_IV_11-8_OV_11-7.csv",
-                    "3": "1L_IV_11-8_OV_11-7.csv",
+                    "3": "1L_11_ULTRA_LONG_TEST.csv",
                     "4": "1L_IV_11-8_OV_11-7.csv"
                 }
             },
