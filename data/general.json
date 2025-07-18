@@ -176,7 +176,7 @@
                     "unit": "h"
                 },
                 "generator": "P383",
-                "duty_factor": "0.032",
+                "duty_factor": 0.032,
                 "distance": {
                     "value": 400,
                     "unit": "cm"
@@ -192,7 +192,7 @@
                     "unit": "h"
                 },
                 "generator": "A-325",
-                "duty_factor": "1.000",
+                "duty_factor": 1.000,
                 "distance": {
                     "value": 350,
                     "unit": "cm"
@@ -208,13 +208,45 @@
                     "unit": "h"
                 },
                 "generator": "P383",
-                "duty_factor": "0.032",
+                "duty_factor": 0.032,
                 "distance": {
                     "value": 400,
                     "unit": "cm"
                 },
                 "rate_proxy": "110 kV, 40 uA",
                 "notes": "Encased in Pb+HDPE moderator sleeve, directed Ricorad shielding to neutron path"
+            },
+            {
+                "start": "7/16/2025 09:44",
+                "end": "7/16/2025 13:06",
+                "neutron_time":{
+                    "value": 3.37,
+                    "unit": "h"
+                },
+                "generator": "P383",
+                "duty_factor": 0.032,
+                "distance": {
+                    "value": 350,
+                    "unit": "cm"
+                },
+                "rate_proxy": "110 kV, 40 uA",
+                "notes": "Encased in Pb+HDPE moderator sleeve, directed Ricorad shielding to neutron path"
+            },
+            {
+                "start": "7/17/2025 12:00",
+                "end": "7/17/2025 18:00",
+                "neutron_time":{
+                    "value": 4.61,
+                    "unit": "h"
+                },
+                "generator": "A-325",
+                "duty_factor": 1.000,
+                "distance": {
+                    "value": 200,
+                    "unit": "cm"
+                },
+                "rate_proxy": "ACC -95 kV, SRC +3 kV",
+                "notes": "On the floor, at the 2m line"
             }
         ]
     },
