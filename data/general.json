@@ -12,7 +12,7 @@
             "unit": "degC",
             "note": "minimum, temperature is non-uniform"
         },
-        "purpose_of_run": "Shielding test of a combination of Ricorad plates and 5% B-PE"
+        "purpose_of_run": "Shielding test of a combination of Ricorad plates and 5% B-PE. Added a layer of alumina wool 1\" thick and a layer of fiberglas insulation on the outside of the secondary to increase salt temperature."
     },
     "cover_gas": {
         "type": "3.5% H2 in He",
@@ -27,7 +27,12 @@
         },
         "flow_rate_sample": {
             "value": 30,
-            "unit": "SCCM"
+            "unit": "SCCM",
+            "changed_to": {
+                "value": 20,
+                "unit": "SCCM",
+                "time": "7/6/2025 11:29"
+            }
         },
         "flow_rate_air": {
             "value": 10,
@@ -51,7 +56,12 @@
         },
         "flow_rate_sample": {
             "value": 50,
-            "unit": "SCCM"
+            "unit": "SCCM",
+            "changed_to": {
+                "value": 20,
+                "unit": "SCCM",
+                "time": "7/6/2025 11:29"
+            }
         },
         "flow_rate_air": {
             "value": 10,
@@ -62,6 +72,72 @@
             "gas_switch_time": null
         }
     },
+    "temperature_profiles": [
+        {
+            "description": "Initial setup",
+            "starting_from_date": "6/20/2025 08:49",
+            "center_heater": {
+                "value": 750,
+                "unit": "degC"
+            },
+            "dip_TC": {
+                "value": 649,
+                "unit": "degC"
+            },
+            "wall_TC": {
+                "value": 630,
+                "unit": "degC"
+            },
+            "furnace": {
+                "value": 605,
+                "unit": "degC"
+            },
+            "outside_OV_wall": {
+                "value": 290,
+                "unit": "degC"
+            },
+            "epoxy_top": {
+                "value": 65,
+                "unit": "degC"
+            },
+            "epoxy_bottom": {
+                "value": 43,
+                "unit": "degC"
+            }
+        },
+        {
+            "description": "Outside insulation added",
+            "starting_from_date": "7/3/2025 13:30",
+            "center_heater": {
+                "value": 750,
+                "unit": "degC"
+            },
+            "dip_TC": {
+                "value": 692,
+                "unit": "degC"
+            },
+            "wall_TC": {
+                "value": 685,
+                "unit": "degC"
+            },
+            "furnace": {
+                "value": 673,
+                "unit": "degC"
+            },
+            "outside_OV_wall": {
+                "value": 488,
+                "unit": "degC"
+            },
+            "epoxy_top": {
+                "value": 72,
+                "unit": "degC"
+            },
+            "epoxy_bottom": {
+                "value": 48,
+                "unit": "degC"
+            }
+        }
+    ],
     "generators": [
         {
             "name": "nGen-400",
@@ -90,8 +166,88 @@
         "notes":"From the edge of OV: 2in air gap, 3in of Ricorad type B borated, 2in of 5% B-PE, 5.25in air gap, 8in of Ricorad type B borated."
     },
     "other_irradiations": {
-        "present": false,
+        "present": true,
         "periods":[
+            {
+                "start": "7/1/2025 10:00",
+                "end": "7/1/2025 17:00",
+                "neutron_time":{
+                    "value": 5,
+                    "unit": "h"
+                },
+                "generator": "P383",
+                "duty_factor": 0.032,
+                "distance": {
+                    "value": 400,
+                    "unit": "cm"
+                },
+                "rate_proxy": "Max settings",
+                "notes": "Encased in Pb+HDPE moderator sleeve, directed Ricorad shielding to neutron path"
+            },
+            {
+                "start": "7/9/2025 13:00",
+                "end": "7/9/2025 17:00",
+                "neutron_time":{
+                    "value": 0.4,
+                    "unit": "h"
+                },
+                "generator": "A-325",
+                "duty_factor": 1.000,
+                "distance": {
+                    "value": 350,
+                    "unit": "cm"
+                },
+                "rate_proxy": "ACC -90 kV, SRC +3 kV",
+                "notes": "On the floor"
+            },
+            {
+                "start": "7/10/2025 10:20",
+                "end": "7/10/2025 17:50",
+                "neutron_time":{
+                    "value": 7.5,
+                    "unit": "h"
+                },
+                "generator": "P383",
+                "duty_factor": 0.032,
+                "distance": {
+                    "value": 400,
+                    "unit": "cm"
+                },
+                "rate_proxy": "110 kV, 40 uA",
+                "notes": "Encased in Pb+HDPE moderator sleeve, directed Ricorad shielding to neutron path"
+            },
+            {
+                "start": "7/16/2025 09:44",
+                "end": "7/16/2025 13:06",
+                "neutron_time":{
+                    "value": 3.37,
+                    "unit": "h"
+                },
+                "generator": "P383",
+                "duty_factor": 0.032,
+                "distance": {
+                    "value": 350,
+                    "unit": "cm"
+                },
+                "rate_proxy": "110 kV, 40 uA",
+                "notes": "Encased in Pb+HDPE moderator sleeve, directed Ricorad shielding to neutron path"
+            },
+            {
+                "start": "7/17/2025 12:00",
+                "end": "7/17/2025 18:00",
+                "neutron_time":{
+                    "value": 4.61,
+                    "unit": "h"
+                },
+                "generator": "A-325",
+                "duty_factor": 1.000,
+                "distance": {
+                    "value": 200,
+                    "unit": "cm"
+                },
+                "rate_proxy": "ACC -95 kV, SRC +3 kV",
+                "notes": "On the floor, at the 2m line"
+            }
         ]
     },
     "neutron_detection": {
@@ -167,7 +323,7 @@
         "run_start": "6/20/2025 08:49"
     },
     "tritium_blank_set": {
-        "filename": "SLR_BLANK_SCAN.csv",
+        "filename": "SLR_BLANK_ULTRA_LONG.csv",
         "parameter": "tSIE",
         "blanks": {
             "SLR_BL2" : {
@@ -303,6 +459,56 @@
                     "3": "1L_IV_11-6_OV_11-5.csv",
                     "4": "1L_IV_11-6_OV_11-5.csv"
                 }
+            },
+            "7": {
+                "planned_sample_time": "7/01/2025 08:49",
+                "actual_sample_time": "7/01/2025 09:05",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-7_OV_11-6.csv",
+                    "2": "1L_IV_11-7_OV_11-6.csv",
+                    "3": "1L_IV_11-7_OV_11-6.csv",
+                    "4": "1L_IV_11-7_OV_11-6.csv"
+                }
+            },
+            "8": {
+                "planned_sample_time": "7/3/2025 08:49",
+                "actual_sample_time": "7/3/2025 13:30",
+                "lsc_vials_filenames": {
+                    "1": "1L_11_ULTRA_LONG_TEST.csv",
+                    "2": "1L_IV_11-8_OV_11-7.csv",
+                    "3": "1L_11_ULTRA_LONG_TEST.csv",
+                    "4": "1L_IV_11-8_OV_11-7.csv"
+                }
+            },
+            "9": {
+                "planned_sample_time": "7/4/2025 08:49",
+                "actual_sample_time": "7/4/2025 14:23",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-9_OV_11-8.csv",
+                    "2": "1L_IV_11-9_OV_11-8.csv",
+                    "3": "1L_IV_11-9_OV_11-8.csv",
+                    "4": "1L_IV_11-9_OV_11-8.csv"
+                }
+            },
+            "10": {
+                "planned_sample_time": "7/6/2025 08:49",
+                "actual_sample_time": "7/6/2025 11:29",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-10_OV_11-9.csv",
+                    "2": "1L_IV_11-10_OV_11-9.csv",
+                    "3": "1L_IV_11-10_OV_11-9.csv",
+                    "4": "1L_IV_11-10_OV_11-9.csv"
+                }
+            },
+            "11": {
+                "planned_sample_time": "7/10/2025 08:49",
+                "actual_sample_time": "7/10/2025 18:16",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-11_OV_11-10.csv",
+                    "2": "1L_IV_11-11_OV_11-10.csv",
+                    "3": "1L_IV_11-11_OV_11-10.csv",
+                    "4": "1L_IV_11-11_OV_11-10.csv"
+                }
             }
         },
         "OV": {
@@ -312,7 +518,7 @@
                 "lsc_vials_filenames": {
                     "1": "1L_IV_11-1_11-2_OV_11-1.csv",
                     "2": "1L_IV_11-1_11-2_OV_11-1.csv",
-                    "3": "1L_IV_11-1_11-2_OV_11-1.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_IV_11-1_11-2_OV_11-1.csv"
                 }
             },
@@ -322,7 +528,7 @@
                 "lsc_vials_filenames": {
                     "1": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
                     "2": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
-                    "3": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv"
                 }
             },
@@ -332,7 +538,7 @@
                 "lsc_vials_filenames": {
                     "1": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
-                    "3": "1L_IV_11-5_OV_11-3_11-4.csv",
+                    "3": "1L_OV_11-8-3_-3-3_OV_10-2-3_-1-3_ULTRA_LONG.csv",
                     "4": "1L_IV_11-5_OV_11-3_11-4.csv"
                 }
             },
@@ -342,7 +548,7 @@
                 "lsc_vials_filenames": {
                     "1": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
-                    "3": "1L_IV_11-5_OV_11-3_11-4.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_IV_11-5_OV_11-3_11-4.csv"
                 }
             },
@@ -352,8 +558,58 @@
                 "lsc_vials_filenames": {
                     "1": "1L_IV_11-6_OV_11-5.csv",
                     "2": "1L_IV_11-6_OV_11-5.csv",
-                    "3": "1L_IV_11-6_OV_11-5.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_IV_11-6_OV_11-5.csv"
+                }
+            },
+            "6": {
+                "planned_sample_time": "7/01/2025 08:49",
+                "actual_sample_time": "7/01/2025 09:05",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-7_OV_11-6.csv",
+                    "2": "1L_IV_11-7_OV_11-6.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
+                    "4": "1L_IV_11-7_OV_11-6.csv"
+                }
+            },
+            "7": {
+                "planned_sample_time": "7/3/2025 08:49",
+                "actual_sample_time": "7/3/2025 13:30",
+                "lsc_vials_filenames": {
+                    "1": "1L_11_ULTRA_LONG_TEST.csv",
+                    "2": "1L_IV_11-8_OV_11-7.csv",
+                    "3": "1L_11_ULTRA_LONG_TEST.csv",
+                    "4": "1L_IV_11-8_OV_11-7.csv"
+                }
+            },
+            "8": {
+                "planned_sample_time": "7/4/2025 08:49",
+                "actual_sample_time": "7/4/2025 14:23",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-9_OV_11-8.csv",
+                    "2": "1L_IV_11-9_OV_11-8.csv",
+                    "3": "1L_OV_11-8-3_-3-3_OV_10-2-3_-1-3_ULTRA_LONG.csv",
+                    "4": "1L_IV_11-9_OV_11-8.csv"
+                }
+            },
+            "9": {
+                "planned_sample_time": "7/6/2025 08:49",
+                "actual_sample_time": "7/6/2025 11:29",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-10_OV_11-9.csv",
+                    "2": "1L_IV_11-10_OV_11-9.csv",
+                    "3": "1L_OV_11-9-3_ULTRA_LONG.csv",
+                    "4": "1L_IV_11-10_OV_11-9.csv"
+                }
+            },
+            "10": {
+                "planned_sample_time": "7/10/2025 08:49",
+                "actual_sample_time": "7/10/2025 18:16",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-11_OV_11-10.csv",
+                    "2": "1L_IV_11-11_OV_11-10.csv",
+                    "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
+                    "4": "1L_IV_11-11_OV_11-10.csv"
                 }
             }
         }
