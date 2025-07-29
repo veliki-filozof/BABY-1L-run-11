@@ -192,13 +192,22 @@ replacement_times_top = sampling_times["IV"]
 replacement_times_walls = sampling_times["OV"]
 
 # read gas change time
-if general_data["cover_gas"]["switched_to"]["gas_switch_time"]:
-    gas_switch_time = datetime.strptime(
-        general_data["cover_gas"]["switched_to"]["gas_switch_time"], "%m/%d/%Y %H:%M"
-    )
-    gas_switch_deltatime = gas_switch_time - start_time
-    gas_switch_deltatime = gas_switch_deltatime.total_seconds() * ureg.s
-    gas_switch_deltatime = gas_switch_deltatime.to(ureg.day)
+gas_switch_deltatimes = []
+switched_to = general_data.get("cover_gas", {}).get("switched_to", [])
+if switched_to and isinstance(switched_to, list):
+    for switch in switched_to:
+        gas_switch_time = switch.get("gas_switch_time")
+        if gas_switch_time:
+            try:
+                gas_switch_time_dt = datetime.strptime(gas_switch_time, "%m/%d/%Y %H:%M")
+                gas_switch_deltatime = gas_switch_time_dt - start_time
+                gas_switch_deltatime = gas_switch_deltatime.total_seconds() * ureg.s
+                gas_switch_deltatime = gas_switch_deltatime.to(ureg.day)
+                gas_switch_deltatimes.append(gas_switch_deltatime)
+            except Exception as e:
+                warnings.warn(f"Could not parse gas_switch_time '{gas_switch_time}': {e}")
+else:
+    warnings.warn("'switched_to' is missing, empty, or not a list in 'cover_gas'.")
 
 # tritium model
 
