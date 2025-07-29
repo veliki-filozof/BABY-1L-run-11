@@ -38,10 +38,16 @@
             "value": 10,
             "unit": "SCCM"
         },
-        "switched_to": {
-            "type": null,
-            "gas_switch_time": null
-        }
+        "switched_to": [
+            {
+                "type": "He",
+                "gas_switch_time": "7/11/2025 19:40"
+            },
+            {
+                "type": "3.65% H2 in He",
+                "gas_switch_time": "7/25/2025 14:09"
+            }
+        ]
     },
     "secondary_gas": {
         "type": "3.5% H2 in He",
@@ -67,10 +73,16 @@
             "value": 10,
             "unit": "SCCM"
         },
-        "switched_to": {
-            "type": null,
-            "gas_switch_time": null
-        }
+        "switched_to": [
+            {
+                "type": "He",
+                "gas_switch_time": "7/11/2025 19:40"
+            },
+            {
+                "type": "3.65% H2 in He",
+                "gas_switch_time": "7/25/2025 14:09"
+            }
+        ]
     },
     "temperature_profiles": [
         {
@@ -247,6 +259,22 @@
                 },
                 "rate_proxy": "ACC -95 kV, SRC +3 kV",
                 "notes": "On the floor, at the 2m line"
+            },
+            {
+                "start": "7/18/2025 13:30",
+                "end": "7/18/2025 14:30",
+                "neutron_time":{
+                    "value": 0.5,
+                    "unit": "h"
+                },
+                "generator": "nGen",
+                "duty_factor": 1.000,
+                "distance": {
+                    "value": 210,
+                    "unit": "cm"
+                },
+                "rate_proxy": "120 kV, 350 uA targeted",
+                "notes": "At plane of salt, at the 2m line, 24 cm Ricorad shielding in neutron path"
             }
         ]
     },
