@@ -1,0 +1,57 @@
+Assay Definition
+
+Assay Description:
+1L BABY Experiment short count, beginning with run 1L-8
+Assay Type: DPM (Single)
+Report Name: Standard report
+Output Data Path: C:\Packard\Tricarb\Results\Default\LIBRA_short\20250729_0045
+Raw Results Path: C:\Packard\Tricarb\Results\Default\LIBRA_short\20250729_0045\20250729_0045.results
+Comma-Delimited File Name: C:\Packard\Tricarb\Results\Default\LIBRA_short\20250729_0045\1L_IV_11-13_OV_11-12_LONG.csv
+Assay File Name: C:\Packard\TriCarb\Assays\LIBRA_short.lsa
+
+Additional Data Files Generated with this Protocol:
+Standard report
+		[Excel]	1L_IV_11-13_OV_11-12_LONG.csv
+
+
+Count Conditions
+
+Nuclide: LIBRA UG LLT NM      
+   Quench Indicator: tSIE
+   External Std Terminator (sec): 0.5 2s%
+   Pre-Count Delay (min): 0.00
+Quench Set:                   
+   Low Energy: 3H-UG-LLT-NM-C
+Count Time (min): 100.00
+Count Mode: Normal                                          
+Assay Count Cycles: 1         Repeat Sample Count: 1        
+Number of Vials/Sample: 1     Calculate % Reference: Off                                  
+
+
+Background Subtract: Off
+Low CPM Threshold: Off
+2 Sigma % Terminator: Off
+
+Regions         LL       UL
+A              0.5      5.0
+B              0.5     10.0
+C              0.0     18.6
+
+
+Count Corrections
+
+Static Controller: On         Luminescence Correction: On     GCT: n/a
+Colored Samples: Off          Heterogeneity Monitor: Off      PAC: Disabled
+Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a   Auxiliary Spectrum: n/a
+
+
+S#,SMPL_ID,Bq:1,CPMA,A:2S%,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
+1,1L-IV_11-13-1,0.240,4.050,10.35,0,332.57,28.11,100,14.405
+2,1L-IV_11-13-2,0.295,4.480,9.62,0,294.38,25.34,100,17.681
+3,1L-IV_11-13-3,0.370,5.600,8.57,0,293.24,25.24,100,22.186
+4,1L-IV_11-13-4,0.324,4.880,9.16,0,291.72,25.11,100,19.434
+Missing vial 5.
+6,1L-OV_11-12-1,0.227,3.960,10.25,0,349.68,29.09,100,13.614
+7,1L-OV_11-12-2,0.264,4.120,10.04,0,301.68,25.96,100,15.868
+8,1L-OV_11-12-3,0.393,5.920,8.33,0,291.79,25.12,100,23.570
+9,1L-OV_11-12-4,0.326,4.920,9.14,0,291.90,25.13,100,19.581

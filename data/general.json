@@ -171,19 +171,19 @@
         }
     ],
     "notes": "nGen positioned 105 cm above the floor, 100 cm away from the salt axis (measured from outside the heater tube to center axis of nGen) in the y direction, parallel to the x axis (long edge of epoxy table). Generator reached 350 uA only after cycling on and off, but the current briefly overshot to >500 uA on second start.",
-    "shielding":{
+    "shielding": {
         "enabled": true,
         "placed_on": "6/20/2025 08:00",
         "removed_on": null,
-        "notes":"From the edge of OV: 2in air gap, 3in of Ricorad type B borated, 2in of 5% B-PE, 5.25in air gap, 8in of Ricorad type B borated."
+        "notes": "From the edge of OV: 2in air gap, 3in of Ricorad type B borated, 2in of 5% B-PE, 5.25in air gap, 8in of Ricorad type B borated."
     },
     "other_irradiations": {
         "present": true,
-        "periods":[
+        "periods": [
             {
                 "start": "7/1/2025 10:00",
                 "end": "7/1/2025 17:00",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 5,
                     "unit": "h"
                 },
@@ -199,7 +199,7 @@
             {
                 "start": "7/9/2025 13:00",
                 "end": "7/9/2025 17:00",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 0.4,
                     "unit": "h"
                 },
@@ -215,7 +215,7 @@
             {
                 "start": "7/10/2025 10:20",
                 "end": "7/10/2025 17:50",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 7.5,
                     "unit": "h"
                 },
@@ -231,7 +231,7 @@
             {
                 "start": "7/16/2025 09:44",
                 "end": "7/16/2025 13:06",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 3.37,
                     "unit": "h"
                 },
@@ -247,7 +247,7 @@
             {
                 "start": "7/17/2025 12:00",
                 "end": "7/17/2025 18:00",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 4.61,
                     "unit": "h"
                 },
@@ -263,7 +263,7 @@
             {
                 "start": "7/18/2025 13:30",
                 "end": "7/18/2025 14:30",
-                "neutron_time":{
+                "neutron_time": {
                     "value": 0.5,
                     "unit": "h"
                 },
@@ -354,7 +354,7 @@
         "filename": "SLR_BLANK_ULTRA_LONG.csv",
         "parameter": "tSIE",
         "blanks": {
-            "SLR_BL2" : {
+            "SLR_BL2": {
                 "water_volume": {
                     "value": 2,
                     "unit": "ml"
@@ -364,7 +364,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL4" : {
+            "SLR_BL4": {
                 "water_volume": {
                     "value": 4,
                     "unit": "ml"
@@ -374,7 +374,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL6" : {
+            "SLR_BL6": {
                 "water_volume": {
                     "value": 6,
                     "unit": "ml"
@@ -384,7 +384,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL8" : {
+            "SLR_BL8": {
                 "water_volume": {
                     "value": 8,
                     "unit": "ml"
@@ -394,7 +394,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL9" : {
+            "SLR_BL9": {
                 "water_volume": {
                     "value": 9,
                     "unit": "ml"
@@ -404,7 +404,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL10" : {
+            "SLR_BL10": {
                 "water_volume": {
                     "value": 10,
                     "unit": "ml"
@@ -414,7 +414,7 @@
                     "unit": "ml"
                 }
             },
-            "SLR_BL11" : {
+            "SLR_BL11": {
                 "water_volume": {
                     "value": 11,
                     "unit": "ml"
@@ -547,6 +547,46 @@
                     "3": "1L_IV_11-12_OV_11-11_LONG.csv",
                     "4": "1L_IV_11-12_OV_11-11_LONG.csv"
                 }
+            },
+            "13": {
+                "planned_sample_time": "7/27/2025 08:49",
+                "actual_sample_time": "7/27/2025 13:01",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "2": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "3": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "4": "1L_IV_11-13_OV_11-12_LONG.csv"
+                }
+            },
+            "14": {
+                "planned_sample_time": "7/29/2025 08:49",
+                "actual_sample_time": "7/29/2025 11:44",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "2": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "3": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "4": "1L_IV_11-14_OV_11-13_LONG.csv"
+                }
+            },
+            "15": {
+                "planned_sample_time": "7/31/2025 08:49",
+                "actual_sample_time": "7/31/2025 11:04",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "2": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "3": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "4": "1L_IV_11-15_OV_11-14_LONG.csv"
+                }
+            },
+            "16": {
+                "planned_sample_time": "8/1/2025 08:49",
+                "actual_sample_time": "8/1/2025 11:57",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "2": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "3": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "4": "1L_IV_11-16_OV_11-15_LONG.csv"
+                }
             }
         },
         "OV": {
@@ -557,7 +597,7 @@
                     "1": "1L_IV_11-1_11-2_OV_11-1.csv",
                     "2": "1L_IV_11-1_11-2_OV_11-1.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
-                    "4": "1L_IV_11-1_11-2_OV_11-1.csv"
+                    "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
                 }
             },
             "2": {
@@ -567,7 +607,7 @@
                     "1": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
                     "2": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
-                    "4": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv"
+                    "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
                 }
             },
             "3": {
@@ -577,7 +617,7 @@
                     "1": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "3": "1L_OV_11-8-3_-3-3_OV_10-2-3_-1-3_ULTRA_LONG.csv",
-                    "4": "1L_IV_11-5_OV_11-3_11-4.csv"
+                    "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
                 }
             },
             "4": {
@@ -587,14 +627,14 @@
                     "1": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
-                    "4": "1L_IV_11-5_OV_11-3_11-4.csv"
+                    "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
                 }
             },
             "5": {
                 "planned_sample_time": "6/29/2025 08:49",
                 "actual_sample_time": "6/29/2025 12:59",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-6_OV_11-5.csv",
+                    "1": "1L_OV_11-5-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-6_OV_11-5.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_10_9_8_7_6_5_-4_ULTRA_LONG.csv"
@@ -604,7 +644,7 @@
                 "planned_sample_time": "7/01/2025 08:49",
                 "actual_sample_time": "7/01/2025 09:05",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-7_OV_11-6.csv",
+                    "1": "1L_OV_11-_10_9_8_6_-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-7_OV_11-6.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_10_9_8_7_6_5_-4_ULTRA_LONG.csv"
@@ -624,7 +664,7 @@
                 "planned_sample_time": "7/4/2025 08:49",
                 "actual_sample_time": "7/4/2025 14:23",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-9_OV_11-8.csv",
+                    "1": "1L_OV_11-_10_9_8_6_-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-9_OV_11-8.csv",
                     "3": "1L_OV_11-8-3_-3-3_OV_10-2-3_-1-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_10_9_8_7_6_5_-4_ULTRA_LONG.csv"
@@ -634,7 +674,7 @@
                 "planned_sample_time": "7/6/2025 08:49",
                 "actual_sample_time": "7/6/2025 11:29",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-10_OV_11-9.csv",
+                    "1": "1L_OV_11-_10_9_8_6_-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-10_OV_11-9.csv",
                     "3": "1L_OV_11-9-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_10_9_8_7_6_5_-4_ULTRA_LONG.csv"
@@ -644,7 +684,7 @@
                 "planned_sample_time": "7/10/2025 08:49",
                 "actual_sample_time": "7/10/2025 18:16",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-11_OV_11-10.csv",
+                    "1": "1L_OV_11-_10_9_8_6_-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-11_OV_11-10.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_10_9_8_7_6_5_-4_ULTRA_LONG.csv"
@@ -658,6 +698,46 @@
                     "2": "1L_IV_11-12_OV_11-11_LONG.csv",
                     "3": "1L_IV_11-12_OV_11-11_LONG.csv",
                     "4": "1L_IV_11-12_OV_11-11_LONG.csv"
+                }
+            },
+            "12": {
+                "planned_sample_time": "7/27/2025 08:49",
+                "actual_sample_time": "7/27/2025 13:01",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "2": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "3": "1L_IV_11-13_OV_11-12_LONG.csv",
+                    "4": "1L_IV_11-13_OV_11-12_LONG.csv"
+                }
+            },
+            "13": {
+                "planned_sample_time": "7/29/2025 08:49",
+                "actual_sample_time": "7/29/2025 11:44",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "2": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "3": "1L_IV_11-14_OV_11-13_LONG.csv",
+                    "4": "1L_IV_11-14_OV_11-13_LONG.csv"
+                }
+            },
+            "14": {
+                "planned_sample_time": "7/31/2025 08:49",
+                "actual_sample_time": "7/31/2025 11:04",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "2": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "3": "1L_IV_11-15_OV_11-14_LONG.csv",
+                    "4": "1L_IV_11-15_OV_11-14_LONG.csv"
+                }
+            },
+            "15": {
+                "planned_sample_time": "8/1/2025 08:49",
+                "actual_sample_time": "8/1/2025 11:57",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "2": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "3": "1L_IV_11-16_OV_11-15_LONG.csv",
+                    "4": "1L_IV_11-16_OV_11-15_LONG.csv"
                 }
             }
         }
