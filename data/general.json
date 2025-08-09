@@ -275,6 +275,22 @@
                 },
                 "rate_proxy": "120 kV, 350 uA targeted",
                 "notes": "At plane of salt, at the 2m line, 24 cm Ricorad shielding in neutron path"
+            },
+            {
+                "start": "7/30/2025 11:00",
+                "end": "7/30/2025 13:00",
+                "neutron_time": {
+                    "value": 1.2,
+                    "unit": "h"
+                },
+                "generator": "Cyclotron",
+                "duty_factor": null,
+                "distance": {
+                    "value": null,
+                    "unit": "cm"
+                },
+                "rate_proxy": "Avg beam: 8-11 uA; peak 11.5 for 15 min",
+                "notes": "Target: tantalum, C, Al, 316SS (middle neutron)"
             }
         ]
     },
@@ -587,6 +603,26 @@
                     "3": "1L_IV_11-16_OV_11-15_LONG.csv",
                     "4": "1L_IV_11-16_OV_11-15_LONG.csv"
                 }
+            },
+            "17": {
+                "planned_sample_time": "8/3/2025 08:49",
+                "actual_sample_time": "8/3/2025 14:02",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-17_OV_11-16_LONG.csv",
+                    "2": "1L_IV_11-17_OV_11-16_LONG.csv",
+                    "3": "1L_IV_11-17_OV_11-16_LONG.csv",
+                    "4": "1L_IV_11-17_OV_11-16_LONG.csv"
+                }
+            },
+            "18": {
+                "planned_sample_time": "8/4/2025 08:49",
+                "actual_sample_time": "8/4/2025 09:15",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "2": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "3": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "4": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv"
+                }
             }
         },
         "OV": {
@@ -604,7 +640,7 @@
                 "planned_sample_time": "6/22/2025 08:49",
                 "actual_sample_time": "6/22/2025 08:29",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
+                    "1": "1L_OV_11-2-1_ULTRA_LONG.csv",
                     "2": "1L_IV_10-1_10-2_10-3_11-3_11-4_OV_10-1_10-2_11-2.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
@@ -614,7 +650,7 @@
                 "planned_sample_time": "6/24/2025 08:49",
                 "actual_sample_time": "6/24/2025 10:16",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-5_OV_11-3_11-4.csv",
+                    "1": "1L_OV_11-3-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "3": "1L_OV_11-8-3_-3-3_OV_10-2-3_-1-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
@@ -624,7 +660,7 @@
                 "planned_sample_time": "6/26/2025 08:49",
                 "actual_sample_time": "6/26/2025 13:00",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_11-5_OV_11-3_11-4.csv",
+                    "1": "1L_OV_11-4-1_ULTRA_LONG.csv",
                     "2": "1L_IV_11-5_OV_11-3_11-4.csv",
                     "3": "1L_OV_11-_10_6_5_4_2_1_-3_ULTRA_LONG.csv",
                     "4": "1L_OV_11-_4_3_2_1_-4_ULTRA_LONG.csv"
@@ -738,6 +774,26 @@
                     "2": "1L_IV_11-16_OV_11-15_LONG.csv",
                     "3": "1L_IV_11-16_OV_11-15_LONG.csv",
                     "4": "1L_IV_11-16_OV_11-15_LONG.csv"
+                }
+            },
+            "16": {
+                "planned_sample_time": "8/3/2025 08:49",
+                "actual_sample_time": "8/3/2025 14:02",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-17_OV_11-16_LONG.csv",
+                    "2": "1L_IV_11-17_OV_11-16_LONG.csv",
+                    "3": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "4": "1L_IV_11-17_OV_11-16_LONG.csv"
+                }
+            },
+            "17": {
+                "planned_sample_time": "8/4/2025 08:49",
+                "actual_sample_time": "8/4/2025 09:15",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "2": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "3": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv",
+                    "4": "1L_IV_11-18_OV_11-17_11-16-3_LONG.csv"
                 }
             }
         }
