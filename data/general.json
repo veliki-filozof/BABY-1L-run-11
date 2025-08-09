@@ -28,11 +28,18 @@
         "flow_rate_sample": {
             "value": 30,
             "unit": "SCCM",
-            "changed_to": {
-                "value": 20,
-                "unit": "SCCM",
-                "time": "7/6/2025 11:29"
-            }
+            "changed_to": [
+                {
+                    "value": 20,
+                    "unit": "SCCM",
+                    "time": "7/6/2025 11:29"
+                },
+                {
+                    "value": 30,
+                    "unit": "SCCM",
+                    "time": "7/25/2025 14:09"
+                }
+            ]
         },
         "flow_rate_air": {
             "value": 10,
@@ -63,11 +70,18 @@
         "flow_rate_sample": {
             "value": 50,
             "unit": "SCCM",
-            "changed_to": {
-                "value": 20,
-                "unit": "SCCM",
-                "time": "7/6/2025 11:29"
-            }
+            "changed_to": [
+                {
+                    "value": 20,
+                    "unit": "SCCM",
+                    "time": "7/6/2025 11:29"
+                },
+                {
+                    "value": 50,
+                    "unit": "SCCM",
+                    "time": "7/25/2025 14:09"
+                }
+            ]
         },
         "flow_rate_air": {
             "value": 10,
